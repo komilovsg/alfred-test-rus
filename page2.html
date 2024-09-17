@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тарифные планы - Тест 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Тарифные планы -->
+    <div class="container mx-auto my-10">
+      <h1 class="text-3xl font-bold text-center mb-8">Тарифные планы</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-[220px_1fr]">
+        <!-- 1 бок -->
+        <div
+          class="flex flex-col gap-2 font-bold justify-start item-start mt-5"
+        >
+          <div class="mb-[49px] relative">
+            <p class="text-left font-bold">Тариф</p>
+            <img
+              class="absolute -right-[50px]"
+              src="./crm-logo.png"
+              alt=""
+              width="100"
+            />
+          </div>
+          <ul class="mt-20 flex flex-col gap-5">
+            <li class="border-t pt-5">Пользователи</li>
+            <li class="pt-5 border-t">Место в облаке</li>
+          </ul>
+          <ul class="space-y-2 text-left mt-3">
+            <li class="font-bold border-t pt-5 pb-[44px]">
+              <p>12 инструментов для бизнеса</p>
+              <p class="font-light pt-1">
+                социальная сеть, задачи, видеозвонки, Диск, календари, CRM,
+                телефония и
+                <strong class="text-blue-500 font-semibold">другие</strong>
+              </p>
+            </li>
+            <li class="font-bold border-t pt-5 pb-[68px]">
+              <p>Расширенные инструменты</p>
+              <p class="font-light pt-1">CRM+, Телефония+, Задачи+</p>
+            </li>
+            <li class="font-bold border-t py-5">
+              <p>
+                Внешние пользователи <br />
+                (экстранет)
+              </p>
+            </li>
+            <li class="font-bold border-t pt-5 pb-[44px]">
+              <p class="font-light pt-1">
+                Учет рабочего времени, отчеты руководителю, бизнес-процессы и
+                многое другое
+              </p>
+            </li>
+            <li class="font-bold border-t p-5">
+              <button
+                class="border border-[#95e4f6] text-[#95e4f6] rounded-2xl w-full py-1 px-1"
+              >
+                Сравнить тарифы >
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-[repeat(4,_1fr)] border">
+          <!-- 2 бок -->
+          <div
+            class="flex flex-col gap-2 font-bold justify-start item-start mt-5"
+          >
+            <div class="mb-12 text-center">
+              <p class="font-semibold">Проект</p>
+              <p class="font-semibold text-[#20c6f8]">Бесплатно</p>
+            </div>
+            <ul class="mt-14 flex flex-col gap-5 text-center">
+              <li class="border-t pt-5 font-light">12</li>
+              <li class="pt-5 border-t font-light">5 Гб</li>
+            </ul>
+            <ul class="space-y-2 mt-3">
+              <li
+                class="font-bold border-t pt-5 pb-[138px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[87px] flex justify-center item-center"
+              >
+                <img src="./Minus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[35px] flex justify-center item-center"
+              >
+                <img src="./Minus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[87px] flex justify-center item-center"
+              >
+                <img src="./Minus.png" alt="plus" width="30" />
+              </li>
+              <li class="font-bold border-t p-5">
+                <button
+                  class="border bg-[#b5e300] border-[#b5e300] text-[#e7f5b9] rounded-2xl w-full py-1"
+                >
+                  РЕГИСТРАЦИЯ
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- 3 бок -->
+          <div
+            class="flex flex-col gap-2 font-bold justify-start item-start mt-5"
+          >
+            <div class="mb-12 text-center relative">
+              <img
+                class="absolute left-[50%] -translate-x-[50%] -top-8"
+                src="./new-logo.png"
+                alt=""
+                width="100"
+              />
+              <p class="font-semibold">Проект+</p>
+              <p class="text-[#20c6f8] font-semibold">
+                990 руб./мес. <br />
+                скидки 12% и 24%
+              </p>
+            </div>
+            <ul class="mt-8 flex flex-col gap-5 text-center">
+              <li class="border-t pt-5 font-light">24</li>
+              <li class="pt-5 border-t font-light">24 Гб</li>
+            </ul>
+            <ul class="space-y-2 mt-3">
+              <li
+                class="font-bold border-t pt-5 pb-[138px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[90px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[35px] flex justify-center item-center"
+              >
+                <img src="./Minus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[87px] flex justify-center item-center"
+              >
+                <img src="./Minus.png" alt="plus" width="30" />
+              </li>
+              <li class="font-bold border-t p-5">
+                <button
+                  class="border bg-[#20c6f8] border-[#20c6f8] text-white rounded-2xl w-full py-1"
+                >
+                  РЕГИСТРАЦИЯ
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- 4 бок -->
+          <div
+            class="flex flex-col gap-2 font-bold justify-start item-start mt-5"
+          >
+            <div class="mb-12 text-center">
+              <p class="font-semibold">Команда</p>
+              <p class="text-[#20c6f8] font-semibold">
+                4 990 руб./мес. <br />
+                скидки 12% и 24%
+              </p>
+            </div>
+            <ul class="mt-8 flex flex-col gap-5 text-center">
+              <li class="border-t pt-5 font-light">24</li>
+              <li class="pt-5 border-t font-light">24 Гб</li>
+            </ul>
+            <ul class="space-y-2 mt-3">
+              <li
+                class="font-bold border-t pt-5 pb-[138px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[90px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[44px] flex justify-center item-center"
+              >
+                <p class="font-light">неограничено</p>
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[87px] flex justify-center item-center"
+              >
+                <img src="./Minus.png" alt="plus" width="30" />
+              </li>
+              <li class="font-bold border-t p-5">
+                <button
+                  class="border bg-[#20c6f8] border-[#20c6f8] text-white rounded-2xl w-full py-1"
+                >
+                  РЕГИСТРАЦИЯ
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- 5 бок -->
+          <div
+            class="flex flex-col gap-2 font-bold justify-start item-start mt-5"
+          >
+            <div class="mb-12 text-center">
+              <p class="font-semibold">Компания</p>
+              <p class="text-[#20c6f8] font-semibold">
+                9 990 руб./мес. <br />
+                скидки 12% и 24%
+              </p>
+            </div>
+            <ul class="mt-8 flex flex-col gap-5 text-center">
+              <li class="border-t pt-5 font-light">24</li>
+              <li class="pt-5 border-t font-light">24 Гб</li>
+            </ul>
+            <ul class="space-y-2 mt-3">
+              <li
+                class="font-bold border-t pt-5 pb-[138px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[90px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[44px] flex justify-center item-center"
+              >
+                <p class="font-light">неограничено</p>
+              </li>
+              <li
+                class="font-bold border-t pt-5 pb-[90px] flex justify-center item-center"
+              >
+                <img src="./plus.png" alt="plus" width="30" />
+              </li>
+              <li class="font-bold border-t p-5">
+                <button
+                  class="border bg-[#20c6f8] border-[#20c6f8] text-white rounded-2xl w-full py-1"
+                >
+                  РЕГИСТРАЦИЯ
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="float-right mt-10 text-blue-400" href="./tesr1.html"
+        >На другую страницу</a
+      >
+    </div>
+  </body>
+</html>
